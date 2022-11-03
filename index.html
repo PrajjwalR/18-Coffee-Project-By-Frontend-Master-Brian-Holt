@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+    <title>Coffee Menue</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header-brown">
+            <img src="/coffee_masters_logo.png" alt="" class="coffee-logo">
+            <h2 class="coffee-text">
+                Coffee Master
+            </h2>
+        </div>
+
+        <!-- Menue -->
+        <div class="menue">
+            <div class="items">
+                <h1 id="item-text">
+                    ITEMS
+                </h1>
+                <ul class="items-list">
+                    <li class="items1">
+                        <div class="item-quantity">1x</div>
+                        <div class="item-title">Cappucino</div>
+                        <div class="item-price">$3.35</div>
+                    </li>
+                </ul>
+                <ul class="item-options-list">
+                    <li class="item-option">Light Foam</li>
+                </ul>
+
+                <!-- Border -->
+                <div class="border"></div>
+
+
+                <ul class="items-list">
+                    <li class="items1">
+                        <div class="item-quantity">1x</div>
+                        <div class="item-title">Cappucino</div>
+                        <div class="item-price">$3.85</div>
+                    </li>
+                </ul>
+                <ul class="item-options-list">
+                    <li class="item-option">Light Milk</li>
+                    <li class="item-option">Double espresso</li>
+                </ul>
+
+                <!-- Border -->
+                <div class="border"></div>
+
+
+                <ul class="items-list">
+                    <li class="items1">
+                        <div class="item-quantity">1x</div>
+                        <div class="item-title">Croissant</div>
+                        <div class="item-price" id="item-price-butter">$2.45</div>
+                    </li>
+                </ul>
+                <ul class="item-options-list">
+                    <li class="item-option">Butter</li>
+                </ul>
+            </div>
+
+
+
+            <div class="menue-right">
+
+                <!-- Name -->
+
+                <section class="names">
+                    <h1 id="name-text">NAME</h1>
+                    <h2 id="order-name">
+                        Name of order
+                    </h2>
+
+                    <input type="text" placeholder="Ford Perfect" id="name-input-area">
+                </section>
+
+                <!-- Payment -->
+
+                <section class="payment">
+                    <h1 id="payment-text">PAYMENT</h1>
+                    <h2 id="order-name">
+                        Card Number
+                    </h2>
+
+                    <input type="text" placeholder="XXXX-XXXX-9874" id="name-input-area">
+                    <h2 id="order-name">
+                        CVV Number
+                    </h2>
+
+                    <input type="text" placeholder="XYZ" class="name-input-area-cvv">
+                </section>
+            </div>
+        </div>
+
+
+        <div class="order-total">
+            <ul class="order-items-list">
+                <li class="items1">
+                    <div class="order-item-title">Subtotal:</div>
+                    <div class="order-item-price" id="item-price-subtotal">$5.45</div>
+                </li>
+            </ul>
+            <ul class="order-items-list">
+                <li class="items1">
+                    <div class="order-item-title">Tax:</div>
+                    <div class="order-item-price" id="item-price-tax">$8.45</div>
+                </li>
+            </ul>
+            <ul class="order-items-list">
+                <li class="items1">
+                    <div class="order-item-title">Total:</div>
+                    <div class="order-item-price" id="item-price-total">$15.45</div>
+                </li>
+            </ul>
+
+        </div>
+
+<!-- Order Button -->
+<div class="order-buton">
+    <button id="btn">Place Order</button>
+</div>
+  
+
+    </div>
+
+</body>
+
+</html>

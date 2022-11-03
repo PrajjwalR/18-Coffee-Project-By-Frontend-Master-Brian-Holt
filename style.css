@@ -1,0 +1,200 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    width: 70vw;
+    height: 95vh;
+    margin-left: 12.5rem;
+    margin-top: .5rem;
+    border: 1px solid rgb(66, 39, 27);
+    background-color: rgb(242, 234, 218);
+
+}
+/* Border */
+.border{
+width: 23rem;
+    border: 1px solid rgb(242, 168, 104);
+    margin-left: 1rem;
+    margin-top: 0.7rem;
+}
+
+/* Header */
+
+.header-brown{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: rgb(66, 39, 27);
+    color: white;
+    width: 70vw;
+    align-items: center;
+}
+.coffee-logo{
+   width: 2%;
+   margin-right: 10px;
+}
+.coffee-text{
+    font-size: 15px;
+}
+
+/* Menue */
+.menue{
+    display: grid;
+grid-template-columns: 1fr 1fr ;
+
+}
+
+.items{
+    background-color: rgb(245, 217, 193);
+    height: 15.5em;
+    width: 25em;
+    border-radius: 10px;
+    margin-top: 3rem;
+    margin-left: 2.5rem;
+}
+#item-text{
+    font-size: 15px;
+    color:  rgb(219, 111, 18);
+    margin-left: 10px;
+   padding: 10px;
+}
+
+
+
+
+ul{
+    list-style: none;
+}
+.items-list{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 15px;
+    color:  rgb(66, 39, 27);
+    margin-left: 15px;
+   padding: 5px;
+   
+}
+
+#item-price-butter{
+    margin-left: 0.9rem;
+}
+
+.items1{
+    display: flex;
+    gap: 6rem;
+}
+.item-option{
+    margin-left: 20px;
+    margin-top: 2px;
+}
+
+
+/* Name  */
+
+.names{
+    background-color: rgb(245, 217, 193);
+    height: 7em;
+    width: 25em;
+    border-radius: 10px;
+margin-top: 3rem;
+}
+
+#name-text{
+    font-size: 15px;
+    color:  rgb(219, 111, 18);
+    margin-left: 10px;
+   padding: 10px;
+}
+
+#name-input-area{
+    width: 24rem;
+    height: 3rem;
+    margin-left: 0.5rem;
+    margin-top: 0.5em;
+    border-radius: 25px;
+    border: 2px solid rgb(242, 168, 104);
+    background-color: rgb(245, 217, 193);
+    padding: 1rem;
+    font-size: large;
+}
+
+#order-name{
+    position: absolute;
+    background-color: rgb(245, 217, 193);
+    height: 1rem;
+  color: rgb(219, 111, 18);
+    font-size: small;
+    margin-left: 2.5rem;
+}
+
+/* Payment */
+
+.payment{
+    background-color: rgb(245, 217, 193);
+    height: 11em;
+    width: 25em;
+    border-radius: 10px;
+    margin-top: 1.5rem;
+}
+#payment-text{
+    font-size: 15px;
+    color:  rgb(219, 111, 18);
+    margin-left: 10px;
+   padding: 10px;
+}
+.name-input-area-cvv{
+    width: 10rem;
+    height: 3rem;
+    margin-left: 0.5rem;
+    margin-top: 0.5em;
+    border-radius: 25px;
+    border: 2px solid rgb(242, 168, 104);
+    background-color: rgb(245, 217, 193);
+    padding: 1rem;
+    font-size: large;
+}
+
+
+/* Order Total */
+
+.order-total{
+        margin-top: 4rem;
+        margin-left: 23rem;
+}
+
+.order-items-list{
+    margin: 5px;
+}
+
+#item-price-tax{
+margin-left: 2.6rem;
+}
+#item-price-total{
+    margin-left: 1.8rem; 
+}
+
+/* Button */
+
+ #btn{
+    width: 60vw;
+    height: 5vh;
+    margin-left: 4.5rem;
+    margin-top: 1rem;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 20px;
+    color: rgb(245, 217, 193);
+    background-color: rgb(197, 118, 49);
+ }
+
+#btn:hover{
+    background-color: rgb(242, 168, 104);
+    color: rgb(197, 118, 49);
+    cursor: grab;
+}
